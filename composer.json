@@ -1,2 +1,13 @@
-
-STRING a
+{
+  "name": "username/projectname",
+  "description": "A simple project for demonstration purposes.",
+  "type": "project",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "YourNamespace\\": "src/"
+    }
+  }
+}
