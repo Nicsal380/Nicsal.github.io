@@ -6,6 +6,9 @@
     "php": ">=7.1.0"
   },
   "autoload": {
+        "support": {
+        "homepage": "https://pixelporto.com/"
+    },
     "psr-4": {
       "YourNamespace\\": "src/"
     }
